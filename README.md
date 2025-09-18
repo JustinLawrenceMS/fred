@@ -71,29 +71,7 @@ Configuration
 - `tlds.json`: The program expects this file in the project root by default. If you need to change the path, update the `$tlds_path` property in `Fred`.
 - `fred.php`: The `$url` property contains the full Google search URL template. It currently uses `fbi.gov` as the domain to be replaced. If you want to change the query text or the domain, update this value.
 
-Security & Ethical considerations
---------------------------------
-
-This project performs automated HTTP requests to Google Search pages. Be mindful of the following:
-
-- Sending many automated requests against Google may violate their terms of service and trigger rate limiting. Use responsibly and add delays/rate limiting if you run large batches.
-- The default search query includes content referencing an organization (domain `fbi.gov`) — ensure you have a legitimate, non-harmful use for replacing and testing domains in the search URL.
-- Do not use this script for abusive scanning or to attempt to circumvent access controls.
-
-Potential improvements
-----------------------
-
-- Add rate limiting (sleep between requests) and retry/backoff logic.
-- Allow passing the TLDs file path and/or search template via CLI arguments or environment variables.
-- Output results to a file (CSV/JSON) for later analysis.
-- Add tests and type checks (static analysis).
-
 License
 -------
 
-This repository doesn't include an explicit license file. If you plan to publish or share this project, add a `LICENSE` file to indicate permitted uses.
-
-Contact / Support
------------------
-
-If you have questions about the code or would like me to add features (CLI args, rate-limiting, output options, or tests), tell me what you'd like and I will update the code and README.
+I the Poet insofar as I am legally authorized to, release this content into the Public Domain.
