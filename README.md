@@ -38,7 +38,7 @@ composer install
 
 ```json
 {
-	"tlds": ["fbi.gov", "example.com", "example.org"]
+	"tlds": ["gov", "com", "org", "etc"]
 }
 ```
 

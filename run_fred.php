@@ -1,0 +1,5 @@
+<?php
+
+$fred = new Fred();
+
+?>
