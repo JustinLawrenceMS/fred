@@ -1,4 +1,3 @@
-(The file `/Users/cotton_west/fred/README.md` exists, but is empty)
 # Fred
 
 Fred is a small PHP utility that builds and checks a set of Google Search URLs by replacing the domain `fbi.gov` in a prepared search query with a list of top-level domains (TLDs) from `tlds.json`, then requests each URL using Guzzle and reports whether the URL returned an HTTP 200 response.
